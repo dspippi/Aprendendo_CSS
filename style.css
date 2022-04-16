@@ -1,0 +1,45 @@
+body, html {
+    height: 100%;
+    
+    margin: 0;
+    font: 400 15px/1.8 "Lato", sans-serif;
+    color: #777;
+  }
+
+.parallax1 {
+    background-image: url("https://media.istockphoto.com/photos/aerial-panorama-of-botafogo-bay-rio-de-janeiro-picture-id608540602?b=1&k=20&m=608540602&s=170667a&w=0&h=AataLXfn0acAkHnx2CAkKusL4eZl5a7mtOG1LgWdf48=");
+    height: 100%;
+
+    /* Parallax effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax2 {
+    background-image: url("https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8cmlvJTIwZGUlMjBqYW5laXJvfGVufDB8fDB8fA%3D%3D&w=1000&q=80");
+    height: 100%;
+
+    /* Parallax effect*/
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.859);
+  }
+  .caption span.border {
+    background-color: #111;
+    color: #fff;
+    padding: 18px;
+    font-size: 25px;
+    letter-spacing: 10px;
+  }
